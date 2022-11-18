@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    height: 80px;
+    background-color: lime;
+}
+
+.footer {
+    height: 160px;
+    background-color: black;
+}
