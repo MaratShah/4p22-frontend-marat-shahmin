@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson 2.7</title>
+</head>
+<body>
+  <form class="form">
+    <input aria-label="ФИО" name="name" type="text" placeholder="Ведите ваше ФИО...">
+    <input class="form__input" id="email" name="email" type="email">
+    <input for="email">E-mail</label>
+    <input id="password" name="password" type="password">
+
+    <!-- не используется -->
+    <input type="color">
+    <input type="date">
+    <input type="datetime-local">
+     
+    <!-- используется -->
+    <input type="file">
+
+    <div>
+      <input id="checkbox-1" type="checkbox" name="colors" value="RED">
+      <label for="checkbox-2">Жултый</label>
+    </div>
+
+    <div>
+      <input id="checkbox-2" type="checkbox" name="colors" value="YELLOW">
+      <label for="checkbox-2">Жултый</label>
+    </div>
+
+
+    <div>
+      <input id="checkbox-3" type="checkbox" name="colors" value="WHITE">
+      <label for="checkbox-3">Белый</label>
+    </div>
+
+    <div>
+      <input id="checkbox-4" type="checkbox" name="colors" value="BLUE">
+      <label for="checkbox-4">Синий</label>
+    </div>
+
+    <div>
+      <input id="radio-1" type="radio" name="gender" value="MAN">
+      <label for="radio-1">Мужчина</label>
+      <input id="radio-2" type="radio" name="gender" value="WOMEN">
+      <label for="radio-2">Женшина</label>
+    </div>
+
+    <label for="language">Язык</label>
+      <select name="language" id="language">
+         <option value="RU">Русский</option>
+         <option value="EN">Английский</option>
+         <option value="TAT">Татарский</option>
+      </select>
+      <label for="textarea">О себе</label>
+      <textarea style="resize: none" id="textarea" name="textarea"></textarea>
+
+    </div>
+    <button>кнопка</button>
+    </form>
+</body>
+</html>
