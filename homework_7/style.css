@@ -45,7 +45,7 @@ body{
   width: calc(510 / 1440 * 100vw);
   height: calc(49 / 1440 * 100vw);
   border-radius: calc(10 / 1440 * 100vw);
-  border: 2px solid #787878;
+  border: 2px solid #787879;
   margin: 0 auto;
   font-size: calc(28 / 1440 * 100vw);
   font-weight: 700;
