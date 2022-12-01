@@ -18,24 +18,17 @@ body{
     align-items: center;
 }
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+.header-logo{
+    margin-top: calc(5 / 1440 * 100vw);
+    width: calc(222 / 1440 * 100vw);
+    margin-left: calc(30 / 1440 * 100vw);
 }
 
-body{
-    font-family: Robotobold;
-    color: #787878;
-    padding: 0;
-}
-
-.header{
-    height: calc(80 / 1440 * 100vw);
-    display: flex;
-    box-shadow: 0px calc(4 / 1440 * 100vw) calc(4 / 1440 * 100vw) rgba(0, 0, 0, 0.25);
-    font-family: Inter-Bold;
-    align-items: center;
+.header-name_site{
+    margin-left: calc(30 / 1440 * 100vw);
+    margin-top: calc(5 / 1440 * 100vw);
+    flex-grow: 1;
+    font-size: calc(36 / 1440 * 100vw);
 }
 
 .header-reg_log{
